@@ -9,7 +9,7 @@ env:
   PROJECT_ID: ${{ secrets.GCLOUD_PROJECT }}
   GKE_CLUSTER: cluster-1
   GKE_ZONE: us-central1-c
-  DEPLOYMENT_NAME: gke-test
+  DEPLOYMENT_NAME: andra-api
   IMAGE: andra-api
 
 jobs:
