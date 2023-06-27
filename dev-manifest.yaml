@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: andra-api
-          image: us-docker.pkg.dev/unstable-unicorns-389016/andra-api/api-tests
+          image: us-docker.pkg.dev/unstable-unicorns-389016/andra-api/api-tests:latest
           ports:
             - containerPort: 3000
           resources:
